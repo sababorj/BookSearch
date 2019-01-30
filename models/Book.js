@@ -15,7 +15,8 @@ const BookSchema = new Schema({
         type: String
     },
     image: {
-        type: String
+        type: String,
+        default: 'https://via.placeholder.com/200x200'
     },
     link: {
         type: String
